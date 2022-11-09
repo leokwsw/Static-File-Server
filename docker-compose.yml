@@ -1,0 +1,8 @@
+version: '1.0'
+services:
+  static-web:
+    build: ./
+    volumes:
+      - /Volumes/WD Passport 4TB/myselfbbs_videos:/code/files/
+    ports: 
+      - 8080:8080
